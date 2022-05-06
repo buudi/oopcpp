@@ -1,0 +1,1 @@
+This is a program to simulate a dice that can have any number of sides :)
