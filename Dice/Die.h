@@ -1,16 +1,17 @@
-// specification file for the Die class
-#ifndef DIE_H
-#define DIE_H
+// Specification file for the Die class
+ #ifndef DIE_H
+ #define DIE_H
 
-class Die{
+ class Die
+ {
     private:
-        int sides;
-        int value;
-    public:
-        Die(int = 6); // Constructor with default value for dice to have 6 sides
-        void roll(); // rolls the die
-        int getSides(); // returns the number of sides
-        int getValue(); // returns the die's value
-};
+    int sides; // Number of sides
+    int value; // The die's value
 
-#endif
+    public:
+    Die(int = 6); // Constructor
+    void roll(); // Rolls the die
+    int getSides(); // Returns the number of sides
+    int getValue(); // Returns the die's value
+ };
+ #endif
