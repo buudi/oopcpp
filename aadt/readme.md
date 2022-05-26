@@ -1,0 +1,1 @@
+aadt stands for: Abstract Array Data Type
